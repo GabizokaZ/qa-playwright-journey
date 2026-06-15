@@ -2,7 +2,14 @@
 
 Minha jornada de aprendizado em QA e Automação de Testes utilizando Playwright.
 
-## 📚 Módulos Concluídos
+## 📚 Módulos
+
+### ✅ Base para Testadores Manuais
+
+- Conceitos fundamentais de QA
+- Tipos de testes
+- Ciclo de vida dos testes
+- Boas práticas
 
 ### ✅ Módulo 1 — Primeiros Passos no Playwright
 
@@ -12,39 +19,53 @@ Minha jornada de aprendizado em QA e Automação de Testes utilizando Playwright
 - Execução em múltiplos navegadores
 - Uso de assertions
 
+### 🚧 Módulo 2 — Locators e Elementos
+
+Concluído até o momento:
+
+- getByRole()
+- getByText()
+- getByPlaceholder()
+- locator()
+- filter()
+
+Próximos tópicos:
+
+- CSS Selectors
+- XPath
+- Boas práticas de locators
+
 ## 🧪 Testes Criados
 
-### Abrir página TodoMVC
+### TodoMVC
 
 Verifica:
 
-- Abertura da página
-- Título correto
-- Campo de inserção visível
+- Abertura da aplicação
+- Validação do título da página
+- Validação do campo de inserção
+- Inserção de tarefas
+- Confirmação da tarefa na lista
+- Marcação da tarefa como concluída
+- Uso de locators modernos (getByRole, getByText, getByPlaceholder e locator)
 
-### Adicionar tarefa
-
-Verifica:
-
-- Inserção de tarefa
-- Confirmação na lista
 
 ## 🛠 Tecnologias
 
 - Playwright
-- JavaScript
+- TypeScript
 - Node.js
 - Git
 - GitHub
 
 ## 🎯 Próximos Passos
 
-- Locators avançados
+- CSS Selectors
+- XPath
+- Boas práticas de locators
 - Fixtures
-- Page Object Model
+- Page Object Model (POM)
 - API Testing
 - Integração Contínua (CI/CD)
-
----
 
 Desenvolvido durante minha transição de carreira para QA.
